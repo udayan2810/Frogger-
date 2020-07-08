@@ -31,7 +31,7 @@ function setup() {
 
 // p5js draw function, ran on every frame.
 function draw() {
-  background(0);
+  background("Cyan");
   fill(255, 100);
 
   var intersects = null;
