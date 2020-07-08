@@ -20,6 +20,6 @@ Obstacle.prototype.update = function() {
 
 // Display this obstacle.
 Obstacle.prototype.show = function() {
-  fill(200);
+  fill("Blue");
   rect(this.x, this.y, this.w, this.h);
 }
